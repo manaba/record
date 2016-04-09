@@ -172,7 +172,7 @@ button
     padding: 20px;
     background: rgba(0,0,0,0.3);
     max-width: 100%;
-    min-height: 1080px;
+    min-height: 1150px;
 }
 
 /* left-section */
@@ -185,6 +185,7 @@ button
 .left-section .img-section
 {
     width: 30%;
+    height: 5%;
 }
 
 .left-section img
@@ -208,6 +209,7 @@ button
     padding: 15px;
     background: #434749;
     margin: 10px;
+    height: 180px;
 }
 
 .article-preview:nth-child(odd)
@@ -325,6 +327,9 @@ button
 .list:nth-child(even)
 {
     background-color: rgba(0,0,0,0.6);
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* footer */
