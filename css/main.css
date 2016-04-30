@@ -3,6 +3,7 @@ ul
 {
     margin: 0px;
     font-family: "Microsoft Yahei";
+    list-style: none;
 }
 
 li
@@ -62,13 +63,17 @@ header
 
 nav
 {
-    background: transparent;
+    background: #333;
+    color: #ffffff;
+    background: rgba(0,0,0,1);
     height:50px;
+    width: 100%;
+    position:fixed;
+    z-index:1;
 }
 
 nav ul
 {
-    list-style: none;
     margin: 0px;
     float: right;
 }
@@ -78,7 +83,7 @@ nav ul li,.logo
     display: inline-block;
     line-height: 50px;
     margin-right: 20px;
-    font-family: ºÚÌå;
+    font-family: "Microsoft Yahei";
 }
 
 nav ul li a
@@ -277,8 +282,16 @@ button
 
 .paging
 {
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 0;
+}
+.paging ul li
+{
+    display: inline-block;
+    line-height: 50px;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
 }
 
 /* right-section */
@@ -339,7 +352,7 @@ footer
     color: #ffffff;
     min-height: 150px;
     text-align: center;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,1);
 }
 
 .copy
