@@ -1,0 +1,179 @@
+/* common */
+h1
+{
+    margin: 0px;
+    font-size: 40px;
+    font-family: "Microsoft Yahei";
+}
+
+ul
+{
+    font-family: "Microsoft Yahei";
+    list-style: none;
+    margin: 0px;
+}
+
+li
+{
+    font-family: "Microsoft Yahei";
+}
+
+h2
+{
+    margin: 0px;
+    font-size: 28px;
+    font-family: "Microsoft Yahei";
+}
+
+/*content*/
+.content
+{
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*header*/
+header
+{
+    background: rgba(0,0,0,0.3);
+    margin: 0px;
+}
+
+nav
+{
+    background: #333;
+    color: #ffffff;
+    background: rgba(0,0,0,1);
+    height:50px;
+    width: 100%;
+    position:fixed;
+    z-index:1;
+}
+
+nav ul
+{
+    margin: 0px;
+    float: right;
+}
+
+nav ul li,.logo
+{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+    font-family: "Microsoft Yahei";
+}
+
+nav ul li a
+{
+    line-height: 50px;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
+}
+
+.logo
+{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    float: left;
+    padding-left: 20px;
+}
+
+
+.logo a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner
+{
+    background:transparent;
+    height:56px;
+}
+
+/*content*/
+.content
+{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+/*read*/
+.top
+{
+    font-size: 0px;
+    padding: 20px;
+    background: #434749;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.title
+{
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.img-section
+{
+    float: right;
+    max-width: 40%;
+}
+
+ul li img
+{
+    width: 100%;
+}
+
+.read
+{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+/* under */
+.text
+{
+    margin: 0px;
+    margin-bottom: 4px;
+    padding: 20px;
+    background: #434749;
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* footer */
+footer
+{
+    background: #333;
+    color: #ffffff;
+    min-height: 150px;
+    text-align: center;
+    background: rgba(0,0,0,1);
+}
+
+.copy
+{
+    padding-bottom: 20px;
+}
+
+.share-group
+{
+    display: block;
+    width: 1080px;
+    margin: 0px auto;
+    padding:60px;
+}
+
+.share-group li
+{
+    display: inline-block;
+    padding: 10px;
+}
